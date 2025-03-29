@@ -1,45 +1,58 @@
 .hero {
-    background-color: #1f1f1f;
+  background: url('../../img/bg/hero-1.png') center center / cover no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 5rem 1rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6); // dark overlay
+    z-index: 0;
+  }
+
+  h2, p, .hero-buttons {
+    position: relative;
+    z-index: 1;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    color: #ccc;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+  }
+
+  .hero-buttons {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    padding: 5rem 1rem;
-  
-    h2 {
-      font-size: 3rem;
-      font-weight: 800;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    a {
+      background-color: #8b0000;
       color: #fff;
-      margin-bottom: 1rem;
-    }
-  
-    p {
-      font-size: 1.125rem;
-      color: #ccc;
-      max-width: 600px;
-      margin: 0 auto 2rem auto;
-    }
-  
-    .hero-buttons {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      flex-wrap: wrap;
-  
-      a {
-        background-color: #8b0000;
-        color: #fff;
-        padding: 0.75rem 1.5rem;
-        border-radius: 9999px;
-        font-weight: 600;
-        transition: background-color 0.3s ease;
-  
-        &:hover {
-          background-color: #b22222;
-        }
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #b22222;
       }
     }
   }
-  
+}
