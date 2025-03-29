@@ -1,0 +1,31 @@
+header {
+    background-color: #000;
+    border-bottom: 1px solid #1f1f1f;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  
+    h1 {
+      color: #8b0000;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    nav {
+      a {
+        color: #fff;
+        margin-left: 1.5rem;
+        text-decoration: none;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #b22222;
+        }
+      }
+    }
+  }
+  
