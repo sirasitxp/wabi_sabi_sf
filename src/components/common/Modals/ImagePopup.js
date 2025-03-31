@@ -1,5 +1,4 @@
 import React from 'react';
-import Lightbox from 'react-image-lightbox';
 
 const ImagePopup = ({images,setIsOpen,photoIndex,setPhotoIndex}) => {
   return (
