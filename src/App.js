@@ -57,8 +57,8 @@ function App() {
           className="btn btn-custom"
           target="_blank"  rel="noopener noreferrer"
         >
-          Order Now
-        </a>
+          Order from <br></br>SOMA
+          </a>
       </div>
 
       {/* DoorDash */}
@@ -69,8 +69,8 @@ function App() {
           className="btn btn-custom"
           target="_blank"  rel="noopener noreferrer"
         >
-          Order Now
-        </a>
+          Order from <br></br>SOMA 
+          </a>
       </div>
 
       {/* Grubhub */}
@@ -81,8 +81,8 @@ function App() {
           className="btn btn-custom"
           target="_blank"  rel="noopener noreferrer"
         >
-          Order Now
-        </a>
+          Order from <br></br>SOMA 
+          </a>
       </div>
 
       {/* Uber Eats */}
@@ -94,8 +94,8 @@ function App() {
           target="_blank"  rel="noopener noreferrer"
           
         >
-          Order Now
-        </a>
+          Order from <br></br>SOMA 
+          </a>
       </div>
     </div>
   </div>
@@ -137,7 +137,7 @@ function App() {
           className="btn btn-custom"
           target="_blank"  rel="noopener noreferrer"
         >
-          Order Now
+          Order from <br></br>Nob Hill 
         </a>
       </div>
 
@@ -150,8 +150,8 @@ function App() {
           target="_blank"  rel="noopener noreferrer"
 
         >
-          Order Now
-        </a>
+          Order from <br></br>Nob Hill 
+          </a>
       </div>
 
       {/* Grubhub */}
@@ -163,8 +163,8 @@ function App() {
           target="_blank"  rel="noopener noreferrer"
 
         >
-          Order Now
-        </a>
+          Order from <br></br>Nob Hill 
+          </a>
       </div>
 
       {/* Uber Eats */}
@@ -176,8 +176,8 @@ function App() {
           target="_blank"  rel="noopener noreferrer"
 
         >
-          Order Now
-        </a>
+          Order from <br></br>Nob Hill 
+          </a>
       </div>
     </div>
   </div>
