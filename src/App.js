@@ -1,6 +1,5 @@
 import React from "react";
 import AccessibilityToggle from './components/AccessibilityToggle';
-
 import "./index.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -181,6 +180,8 @@ function App() {
           Order from <br></br>Nob Hill 
           </a>
       </div>
+
+      
     </div>
   </div>
 </section>
