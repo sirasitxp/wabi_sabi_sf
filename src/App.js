@@ -1,4 +1,6 @@
 import React from "react";
+import AccessibilityToggle from './components/AccessibilityToggle';
+
 import "./index.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -188,6 +190,8 @@ function App() {
       <footer className="text-center py-6 bg-black text-sm text-gray-500">
       © {new Date().getFullYear()} Wabi Sabi. All rights reserved.
       </footer>
+      <AccessibilityToggle />
+
     </div>
   );
 }
